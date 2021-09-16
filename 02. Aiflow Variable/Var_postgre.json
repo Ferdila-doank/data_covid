@@ -1,0 +1,9 @@
+{
+	"postgre_server" : {
+		"username" : "airflow",
+		"password" : "airflow",
+		"server" : "172.18.0.2",
+		"port" : "5432",
+		"database" : "airflow"
+		}
+}

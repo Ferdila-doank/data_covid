@@ -1,0 +1,9 @@
+{
+	"API_component" : {
+    		"path_provinsi" : "/opt/airflow/dags/data/covid/provinsi.csv",
+    		"prefix" : "https://data.covid19.go.id/public/api/prov_detail_",
+    		"suffix" : ".json",
+    		"path_dest" : "/opt/airflow/dags/data/covid/covid.json",
+    		"path_source" : "/opt/airflow/dags/data/covid/covid.json"
+		}
+}

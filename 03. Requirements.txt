@@ -1,0 +1,7 @@
+requests
+pandas
+sqlalchemy
+pymysql
+math
+json
+mysql-python

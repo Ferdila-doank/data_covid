@@ -39,4 +39,6 @@ c. If DAG get error check in tree view and check red box in task, click and choo
 
 ![image](https://user-images.githubusercontent.com/55681442/133918447-b648dc05-adcf-4f57-ae84-64980bb68b47.png)
 
-d. If DAG successfuly run you can check in postgree 
+d. If DAG successfuly run you can check in postgree and check in table data_covid and last_update_covid
+
+![image](https://user-images.githubusercontent.com/55681442/133919382-30f2d26d-0439-4138-a482-1dfd6f7f4042.png)

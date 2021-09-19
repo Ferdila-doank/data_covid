@@ -6,4 +6,6 @@ This project contain about ETL using airflow, postgree and docker to get data co
 
 ## 1. Installation Instruction 
 
-a. 
+      a. Copy file DAG_data_covid.py from folder 01.DAG to your DAG folder airflow
+      b. Make sure your python in airflow already install requirement package (see in file 03.Requirements.txt)
+      c. Import variabel from folder 02.Airflow variable (in that folder have 2 variable first variable for API component and the second for posgree variable)

@@ -33,5 +33,3 @@ c. If DAG get error check in tree view and check red box in task, click and choo
 
 ![image](https://user-images.githubusercontent.com/55681442/133918447-b648dc05-adcf-4f57-ae84-64980bb68b47.png)
 
-## 3. Flow DAG
-

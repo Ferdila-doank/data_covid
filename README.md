@@ -19,6 +19,10 @@ d. In folder DAG create folder data and in that folder create folder covid. This
 
 ![image](https://user-images.githubusercontent.com/55681442/133918119-2a41b3b6-ecae-4fe4-843a-a1d79c5aa9b2.png)
 
+e. Create table data_covid and last_update_covid (see in file 04.table.sql). Create that table in airflow database
+
+![image](https://user-images.githubusercontent.com/55681442/133918911-a1197cd8-0d64-41e2-8597-2d67c1252b28.png)
+
 ## 2. Running and Testing DAG
 
 a. For trying DAG go to DAG tab search dag_data_covid and click action run (Don't forget to unpause this DAG)
@@ -33,3 +37,4 @@ c. If DAG get error check in tree view and check red box in task, click and choo
 
 ![image](https://user-images.githubusercontent.com/55681442/133918447-b648dc05-adcf-4f57-ae84-64980bb68b47.png)
 
+d. If DAG successfuly run you can check in postgree 

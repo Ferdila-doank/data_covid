@@ -20,3 +20,12 @@ d. In folder DAG create folder data and in that folder create folder covid. This
 ![image](https://user-images.githubusercontent.com/55681442/133918119-2a41b3b6-ecae-4fe4-843a-a1d79c5aa9b2.png)
 
 ## 2. Running and Testing DAG
+
+a. For trying DAG go to DAG tab search dag_data_covid and click action run (Don't forget to unpause this DAG)
+
+![image](https://user-images.githubusercontent.com/55681442/133918327-97c65aff-e75f-41aa-853b-d28ea15fbc98.png)
+
+b. If the DAG running well in graph view you will see all task in green border 
+
+![image](https://user-images.githubusercontent.com/55681442/133692288-3e0001e1-98ff-450c-8148-e90d0cd75cbe.png)
+

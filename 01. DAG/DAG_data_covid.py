@@ -170,8 +170,8 @@ def Get_provinsi(ti):
 
     df.to_json(path_provinsi, orient='records', lines=True)
 
-with DAG("dag_data_covid", start_date=datetime(2021, 1, 1),
-    schedule_interval="@once", catchup=False) as dag:
+with DAG("dag_data_covid", start_date=datetime(2021, 8, 21),
+    schedule_interval="@daily", catchup=False) as dag:
 
         Set_Variable = PythonOperator(
             task_id="Set_Variable",

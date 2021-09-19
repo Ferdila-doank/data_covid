@@ -13,5 +13,5 @@ b. Make sure your python in airflow already install requirement package (see in 
 c. Import variabel from folder 02.Airflow variable (in that folder have 2 variable first variable for API component and the second for posgree variable)
 ![image](https://user-images.githubusercontent.com/55681442/133917842-8b6d1783-bcbb-483e-95bc-f0e80e985132.png)
 
-Note: in variable contains server ip postgree please edit to your server ip. if you don't konw ip server postgree please check this [link](https://stackoverflow.com/questions/53610385/docker-postgres-and-pgadmin-4-connection-refused)
+## Note ## : in variable contains server ip postgree please edit to your server ip. if you don't konw ip server postgree please check this [link](https://stackoverflow.com/questions/53610385/docker-postgres-and-pgadmin-4-connection-refused)
 

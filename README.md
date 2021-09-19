@@ -19,7 +19,7 @@ d. In folder DAG create folder data and in that folder create folder covid. This
 
 ![image](https://user-images.githubusercontent.com/55681442/133918119-2a41b3b6-ecae-4fe4-843a-a1d79c5aa9b2.png)
 
-e. Create table data_covid and last_update_covid (see in file 04.table.sql). Create that table in airflow database
+e. Create table data_covid, provinsi and last_update_covid (see in file 04.Table.sql). Create that table in airflow database
 
 ![image](https://user-images.githubusercontent.com/55681442/133918911-a1197cd8-0d64-41e2-8597-2d67c1252b28.png)
 

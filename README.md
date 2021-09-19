@@ -29,3 +29,9 @@ b. If the DAG running well in graph view you will see all task in green border
 
 ![image](https://user-images.githubusercontent.com/55681442/133692288-3e0001e1-98ff-450c-8148-e90d0cd75cbe.png)
 
+c. If DAG get error check in tree view and check red box in task, click and choose yo will get the error 
+
+![image](https://user-images.githubusercontent.com/55681442/133918447-b648dc05-adcf-4f57-ae84-64980bb68b47.png)
+
+## 3. Flow DAG
+

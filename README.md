@@ -3,6 +3,7 @@
 ![image](https://user-images.githubusercontent.com/55681442/133692288-3e0001e1-98ff-450c-8148-e90d0cd75cbe.png)
 
 This project contain about ETL using airflow, postgree and docker to get data covid19 in indonesia (34 province). The source data from data.covid19.go.id (API public data).But in this project i pass step off installation airflow in docker. if you want to know about installation airflow in docker check this [link](https://youtu.be/J6azvFhndLg).
+In this DAG have 7 task, task Set_variable contains code to import variable API component and posgree variable to airflow DAG. task Get_provinsi contains code to get data province name from table provinsi and eksport to json file. Task Get_Link_API contains code to get url api from data.covid19.go.id based on province. Task Get_data contains code to get data from API and transform to JSON file. Task Move_to_postgree contains code to import data to table temp_data_covid from JSON file. Task Insert_new_data contains code to move data from temp_data_covid to data_covid table (only new data will move to data_covid). Task insert_last_update is for get last data update and insert into table last_update_covid.
 
 ## 1. Installation Instruction 
 

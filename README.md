@@ -17,7 +17,7 @@ c. Import variabel from folder 02.Airflow variable (in that folder have 2 variab
 
 **Note** : in variable contains server ip postgree please edit to your server ip. if you don't konw ip server postgree please check this [link](https://stackoverflow.com/questions/53610385/docker-postgres-and-pgadmin-4-connection-refused)
 
-d. In folder DAG create folder data and in that folder create folder covid. This folder use for processing transfer variable from postgree to ariflow (using .json file and xcom in airflow)
+d. In folder DAG create folder data and in that folder create folder covid (/dags/data/covid/provinsi.csv). This folder use for processing transfer variable from postgree to ariflow (using .json file and xcom in airflow). file provinsi.csv get in folder variable airflow.
 
 ![image](https://user-images.githubusercontent.com/55681442/133918119-2a41b3b6-ecae-4fe4-843a-a1d79c5aa9b2.png)
 
